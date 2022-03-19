@@ -1,6 +1,6 @@
 class CQueue {
-    Stack<Integer> stack1;
-    Stack<Integer> stack2;
+    Deque<Integer> stack1;
+    Deque<Integer> stack2;
     public CQueue() {
         stack1= new LinkedList<Integer>();
         stack2= new LinkedList<Integer>();
@@ -25,3 +25,4 @@ class CQueue {
         
     }
 }
+/*官方解法，思路差不多，对栈的几种用法不太熟练*/
